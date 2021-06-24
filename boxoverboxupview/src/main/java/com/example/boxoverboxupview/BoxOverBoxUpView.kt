@@ -213,4 +213,13 @@ class BoxOverBoxUpView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+
+        fun create(activity : Activity) : BoxOverBoxUpView {
+            val view : BoxOverBoxUpView = BoxOverBoxUpView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }
