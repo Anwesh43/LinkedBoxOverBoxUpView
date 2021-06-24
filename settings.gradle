@@ -1,0 +1,3 @@
+include ':boxoverboxupview'
+include ':app'
+rootProject.name = "LinkedBoxOverBoxUpView"
